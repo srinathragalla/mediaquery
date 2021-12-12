@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 1080px;
+            height: 400px;
+            background-color: rgb(235, 171, 34);
+            border: 5px solid rgba(238, 12, 12, 0.151);
+        }
+        @media screen and (max-width :600px){
+            div{
+                background-color: rgb(20, 48, 209);
+                width: 200px;
+                height: 200px;
+                font-size: 10px;
+                color: cornsilk;
+            }
+            
+        }
+        @media screen and (min-width :400px){
+            div{
+                background-color: rgb(120, 241, 136);
+               font-size: 20px;
+               color: brown;
+            }
+            
+        }
+
+        @media screen and (min-width :800px) and (max-width:900px){
+            div{
+                background-color: rgb(74, 170, 18);
+                font-size: 15px;
+                color: rgb(144, 30, 210);
+
+            }
+            
+        }
+        h1{
+            text-align: center;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>media query resolutions</h1>
+    <div>
+<p>screen resolution-media query</p>
+    </div>
+    
+</body>
+</html>
